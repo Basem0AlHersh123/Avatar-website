@@ -1,0 +1,130 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right,#0f0f0fc1,#000000b8);
+    /* display: flex; */
+    /* width: 100%; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* color: white; */
+    /* margin:80px; */
+}
+.container{
+    background-image: linear-gradient(to right,#0f0f0fc1,#000000b8),url(AVATAR.webp);
+    /* display: flex; */
+    background-position:center;
+    /* justify-content: center;
+    background-position: center; */
+    height: 100vh;
+    background-size:cover;
+    /* width: 100%; */
+}
+
+.navbar{
+     display: flex; 
+    color: white; 
+
+    /* width: 100%;  */
+    flex-basis: 600px; 
+    justify-content:space-between;
+    align-items:center;
+    /* align-items: center; */
+     padding: 40px;
+}
+.navbar li{
+    font-weight:b/old;
+    font-size: 20px;
+}
+.container:hover{
+    background-image: linear-gradient(to right,#0f0f0fc1 ,#000000b9, transparent  ),url(AVATAR.webp);
+    
+    /* background-repeat: no-repeat;
+    height: 100vh; */
+}
+
+.navbar a{
+    color: white;
+    transition-duration:1s ;
+    transition-timing-function: linear;
+    /* display: flex; */
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    transition-timing-function: linear;
+    transition-duration:1s ;
+    font-weight: bolder;    
+    font-size: larger;
+}
+.navbar ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 100px; */
+    list-style-type: none;
+}
+.logo{
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.navbar ul li{
+    padding: 10px;
+    /* justify-content: space-evenly; */
+    margin: 5%;
+}
+.main{
+    display: block;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+.main h1{
+    font-size: 64px;
+    text-transform: uppercase;
+}
+.main  p{
+    letter-spacing: 2px;
+    /* width: 350px; */
+}
+.main button{
+    
+    transition-duration: 1s;
+    /* transition-delay: 1s; */
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main button:hover{
+    transition-duration: 1s;
+    background-image: linear-gradient(to top right, rgb(33, 31, 31) 80%,rgba(0, 0, 0, 0.307) );    
+    color:white ;
+    border: 10px groove gray;
+    /* transition-timing-function:ease-in; */
+    box-shadow: 2px  4px  white;
+}
+.main button:active{
+    box-shadow: -1px  -1px  white;
+    margin: 10px 10px;    
+    box-sizing: border-box;
+    transition-duration: 0.5;
+}
+@media (max-width:300px) {
+    body{
+        
+        background-image: linear-gradient(to right,#0f0f0fc1 ,#000000b9, transparent  ),url(AVATAR.webp);
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+
+        height: fit-content;
+    }
+    .container{
+        overflow: hidden;
+        background-image: none;
+    }
+}
+
