@@ -34,8 +34,7 @@ This project demonstrates the beauty of **simplicity and symmetry** in web desig
 ## 🚀 How to Run  
 1. Clone the repo or download the ZIP:  
    ```bash
-   git clone https://github.com/Basem0AlHersh123/Avatar-Website.git
-````
+   git clone https://github.com/Basem0AlHersh123/Avatar-Website.git````
 
 2. Open the project folder in your editor 🧑‍💻
 3. Run the file `index.html` in your browser 🌍
@@ -66,14 +65,5 @@ If you like this project, please **give it a star ⭐** on GitHub — it helps a
 ---
 
 ### 🖤 Made with Passion, by Basem0AlHersh123 🖤
-
-```
-
----
-
-Would you like me to give you a **perfect repo name and short GitHub description** (for the top of the repo, not the README) too?  
-For example:  
-> 💀 The Avatar Website — A cinematic gradient landing page built with pure HTML & CSS 🎨  
-
 I can craft that part as well if you want.
  
